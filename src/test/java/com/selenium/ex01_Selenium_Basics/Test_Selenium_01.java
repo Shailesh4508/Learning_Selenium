@@ -10,5 +10,7 @@ public class Test_Selenium_01 {
         FirefoxDriver driver = new FirefoxDriver();
         driver.get("https://app.VWO.com");
         System.out.println(driver.getTitle());
+        System.out.println(driver.getSessionId());
+        driver.quit();
     }
 }
