@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="Learning_Selenium">
         <classes>
-            <class name="com.selenium.ex01_Selenium_Basics.Test_Selenium_02">
+            <class name="com.selenium.ex01_Selenium_Basics.Test_Selenium_002">
 
             </class>
         </classes>

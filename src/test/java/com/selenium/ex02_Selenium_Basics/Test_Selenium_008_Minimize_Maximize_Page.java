@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 
-public class Test_Selenium_08_Minimize_Maximize_Page {
+public class Test_Selenium_008_Minimize_Maximize_Page {
 
     @Description("Open the Url")
     @Test

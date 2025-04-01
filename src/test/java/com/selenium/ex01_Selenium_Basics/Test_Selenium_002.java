@@ -5,7 +5,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 import org.testng.Assert;
 
-public class Test_Selenium_02 {
+public class Test_Selenium_002 {
 
     @Description("Verify the title by opening app.VWO.com")
     @Test

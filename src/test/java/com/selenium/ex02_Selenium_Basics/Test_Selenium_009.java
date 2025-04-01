@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import static org.assertj.core.api.Assertions.*;
 
-public class Test_Selenium_09 {
+public class Test_Selenium_009 {
 
     @Description("Open the Url")
     @Test

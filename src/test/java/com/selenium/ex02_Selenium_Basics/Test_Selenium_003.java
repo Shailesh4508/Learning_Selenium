@@ -4,7 +4,7 @@ import io.qameta.allure.Description;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 
-public class Test_Selenium_03 {
+public class Test_Selenium_003 {
 
     @Description("Open the App.vwo.com and Get the title")
     @Test

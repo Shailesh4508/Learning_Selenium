@@ -1,6 +1,6 @@
 package com.selenium.ex02_Selenium_Basics;
 
-public class Test_Selenium_06 {
+public class Test_Selenium_006 {
     public static void main(String[] args) {
 
 

@@ -3,7 +3,7 @@ package com.selenium.ex01_Selenium_Basics;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-public class Test_Selenium_01 {
+public class Test_Selenium_001 {
 
     @Test
     public void test_verify_VWO_Login(){

@@ -1,14 +1,11 @@
 package com.selenium.ex02_Selenium_Basics;
 
-import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
 
-public class Test_Selenium_04 {
+public class Test_Selenium_004 {
 
     public static void main(String[] args) {
 

@@ -6,7 +6,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Test_Selenium_10 {
+public class Test_Selenium_010 {
 
     @Description("Open the Url")
     @Test
