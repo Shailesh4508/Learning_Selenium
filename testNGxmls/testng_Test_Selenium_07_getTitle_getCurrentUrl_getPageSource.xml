@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="Learning_Selenium">
         <classes>
-            <class name="com.selenium.ex02_Selenium_Basics.Test_Selenium_07_getTitle_getCurrentUrl_getPageSource">
+            <class name="com.selenium.ex02_Selenium_Basics.Test_Selenium_007_getTitle_getCurrentUrl_getPageSource">
 
             </class>
         </classes>
