@@ -1,4 +1,4 @@
-package com.selenium.ex03_Selenium_Basics;
+package com.selenium.ex03_Selenium_Locators;
 
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
@@ -45,6 +45,9 @@ public class Test_Selenium_019_Mini {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+
+//        WebElement error_message = driver.findElement(By.className("invalid-reason"));
+//        Assert.assertEquals(error_message.get(0).getText(),"The email address you entered is incorrect.");
 
         List<WebElement> error_message = driver.findElements(By.className("invalid-reason"));
         Assert.assertEquals(error_message.get(0).getText(),"The email address you entered is incorrect.");

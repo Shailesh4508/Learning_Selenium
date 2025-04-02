@@ -1,4 +1,4 @@
-package com.selenium.ex03_Selenium_Basics;
+package com.selenium.ex03_Selenium_Locators;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
