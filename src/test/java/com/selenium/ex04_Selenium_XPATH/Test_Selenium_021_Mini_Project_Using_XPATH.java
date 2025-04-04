@@ -47,6 +47,34 @@ public class Test_Selenium_021_Mini_Project_Using_XPATH {
         Assert.assertEquals(driver.getCurrentUrl(),"https://katalon-demo-cura.herokuapp.com/#appointment");
         driver.quit();
 
+        // XPath Functions
+
+        //a[text()="Make Appointment"] - here we have to search in only a tags - Fast
+        //*[text()="Make Appointment"] - here we have to search in all the HTML Tags-Slow
+
+        //a[contains(text(),"Make")]
+        //a[contains(text(),"Appointment")]
+        //a[contains(text(),'App')]
+//      /a[contains(@id,'btn-make-appointment')]
+        //a[contains(@href,'./profile.php#login')]
+        //a[starts-with(text(),"Make")]
+
+        //label[text()="Email address"]
+        //*[text()="Email address"]
+        //*[contains(text(),"Email")]
+        //*[starts-with(text(),"Email")]
+
+//        Operators - AND & OR
+
+         //a[text()="Make Appointment" or contains(@id,"btn-make-appointment")] - any one which match
+         //a[text()="Make Appointment" and contains(@id,"btn-make-appointment")] - 100%
+
+
+
+
+
+
+
 
     }
 }
