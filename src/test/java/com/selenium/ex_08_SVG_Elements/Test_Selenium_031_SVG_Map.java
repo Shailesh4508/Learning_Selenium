@@ -41,6 +41,7 @@ public class Test_Selenium_031_SVG_Map {
             if (state.getDomAttribute("aria-label").contains("Uttar Pradesh  ")){
                 state.click();
             }
+
         }
 
 
